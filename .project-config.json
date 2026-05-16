@@ -1,0 +1,43 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://2KpoUnpLwjbxHRV.518e221bcf6c:Me2c9zvM8CJh8izm2Um2@gateway03.us-east-1.prod.aws.tidbcloud.com:4000/2EYwV9S5txZoZW2o4HkrxS?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310419663028428302/2EYwV9S5txZoZW2o4HkrxS",
+    "access_key_id": "ASIAZV3A2ECZIV2ICUGC",
+    "secret_access_key": "k0ZfvyUxbr7SjPJMj/ooQeLs74vuFTSraj9ma3DQ",
+    "session_token": "IQoJb3JpZ2luX2VjEM3//////////wEaCXVzLWVhc3QtMSJHMEUCICj3kMlHymjEJYLls08pDn1DbHWIS3RF+8gjNTYr1iDjAiEAoMIKcXvxj5g1KH/g/KEyb2+nHqIwkQU40Un54zrtaxEq/gMIlv//////////ARAEGgw2NjUzODYwOTg4NjYiDBE+4E471icDcoq7gyrSA4EyolwPczf4VnQVWaoWHQc5A5t8isnm8HmBIb00j2mDNLwnKusmBNdSRq23fjuaKpM7DpyWpODq0s2cse30kOKzSFHmUwxDj858tRzGt2HO8cmxsZvNLNI7CJUAsh0rVooadFu7XNWHSuAFQrp8/tDspvaUY7g+vx1SxSl2/URXtPmnJcYlGX3OIVyWlX1KtGYJRzVCRZhLvjzEP1MlYvFOsn04ksiZF977hGKNCVs89EUNjM+oD+LS/9/sFoLotRWbQ4nlMbEOOiFhmThIO/cHcFr7KOK2/7K8P1E8s4QK6AY5iF6lKDxlzZxYxMwG8WCHUzTOmo6dydr8uVy0QttP6YLI+TDv9hbRi5WtPA1L1IKn5m9JEF4U1S4hEO6gI5TUjxGdpni4nByEqnaGhxhLooNRu/Qrl/20+GWPXzHwyX9h+rznyhQcecbO5f8qPi3xcXGEGxPbLgrAHAG8P5bMkDSRkOlqf2uNG7uL+5U7H+mIvaj3PAso7+H3/1pJID9L2ynyY0RjF/WTssaC3MWIMqgLZYdcahkqcjiSxEfuxeW3bsSrYze07MEvuz1GZ4EYWlID1TS/6E5p2f6NKRRVINDIZTsfg6P5k3e6zXtQnygwq7aj0AY6nQFCVAPwS+kJjZocyV7QRUlIJ/jrmJbBV1tyDmkctvWT9WHFL2he4Gulme4zdApgRrUP9LfV0uQDsFlmhv8bXvoDptkXmJ0+f8ngobEYFIOYOJFNbivs34J6o7IiSVpl2TQNHp2lwIbi9jQmM6mJJt9rPzB56hA9rYGil+eP9VmKT0xys3lyzeKXcHgcDxnH+qopWWRhZ72r9ymB7TsC",
+    "expiration": "2026-05-17T09:01:31.000Z"
+  },
+  "name": "tech-interview-simulator",
+  "path": "/home/ubuntu/tech-interview-simulator",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "LtBZfV4JPPc7xZSxVbCD94",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "Mp7XhngFR72XB2XzhKbh9F",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Verônica Toledo",
+    "OWNER_OPEN_ID": "77YopJiRtgFozsCz7ssaie",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "f0429752-eef8-465f-8754-f1634514d6c9",
+    "VITE_APP_ID": "2EYwV9S5txZoZW2o4HkrxS",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Tech Interview Simulator",
+    "VITE_FRONTEND_FORGE_API_KEY": "3NTGH7GVuFHasxv3pZRvML",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-db-user",
+  "test_command": "pnpm test"
+}
